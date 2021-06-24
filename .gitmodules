@@ -1,0 +1,35 @@
+[submodule "src/c-siphash/subprojects/c-stdaux"]
+	path = src/c-siphash/subprojects/c-stdaux
+	url = https://github.com/c-util/c-stdaux.git
+
+[submodule "src/c-rbtree/subprojects/c-stdaux"]
+	path = src/c-rbtree/subprojects/c-stdaux
+	url = https://github.com/c-util/c-stdaux.git
+
+[submodule "src/n-acd/subprojects/c-list"]
+	path = src/n-acd/subprojects/c-list
+	url = https://github.com/c-util/c-list.git
+
+[submodule "src/n-acd/subprojects/c-siphash"]
+	path = src/n-acd/subprojects/c-siphash
+	url = https://github.com/c-util/c-siphash.git
+
+[submodule "src/n-acd/subprojects/c-stdaux"]
+	path = src/n-acd/subprojects/c-stdaux
+	url = https://github.com/c-util/c-stdaux.git
+
+[submodule "src/n-acd/subprojects/c-rbtree"]
+	path = src/n-acd/subprojects/c-rbtree
+	url = https://github.com/c-util/c-rbtree.git
+
+[submodule "src/n-dhcp4/subprojects/c-list"]
+	path = src/n-dhcp4/subprojects/c-list
+	url = https://github.com/c-util/c-list.git
+
+[submodule "src/n-dhcp4/subprojects/c-siphash"]
+	path = src/n-dhcp4/subprojects/c-siphash
+	url = https://github.com/c-util/c-siphash.git
+
+[submodule "src/n-dhcp4/subprojects/c-stdaux"]
+	path = src/n-dhcp4/subprojects/c-stdaux
+	url = https://github.com/c-util/c-stdaux.git
