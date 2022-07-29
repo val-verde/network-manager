@@ -268,6 +268,7 @@ NetworkManager_all_sym = executable(
   ],
 )
 
+nm_exe = find_program('nm', required: true)
 ver_script = custom_target(
   'NetworkManager.ver',
   output: 'NetworkManager.ver',
@@ -280,6 +281,7 @@ ver_script = custom_target(
     '--called-from-build',
     source_root,
   ],
+  env: ['NM=' + nm_exe.path()],
 )
 
 NetworkManager = executable(
